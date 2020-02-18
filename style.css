@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(img/background.png);
+}
+
 .container {
   width: 85%;
 }
@@ -13,19 +17,56 @@
 /* Header: titolo & navbar */
 
 header {
-  height: 150px;
   margin-top: 25px;
-  border: 3px solid black;
 }
 
 .title {
   height: 70%;
-  border: 3px solid black;
+  border: 10px solid white;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  background-image: url(img/header.jpg);
+  background-size: cover;
+}
+
+.title h1 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.5;
+}
+
+.title h2 {
+  font-size: 18px;
+  font-weight: 200;
 }
 
 .navbar {
   height: 30%;
-  border: 3px solid black;
+  text-align: center;
+  background-color: #504741;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+li {
+  padding: 15px;
+  font-size: 12px;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* main con sezione centrare e i 2 aside */
